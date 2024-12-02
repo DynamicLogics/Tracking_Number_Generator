@@ -6,7 +6,7 @@ docker pull ssadoc123/dd0522fafb2c
 
 #To the acces the docker image using the URL instead of taking the pull access the below URL: https://hub.docker.com/r/ssadoc123/dd0522fafb2c
 
-#To run the single container image, run the command once you pulled the docker image http://localhost:8080/tng/next-tracking-number or http://localhost:8080/tng/<pulled-docker-image-id>
+#To run the single container image, run the command once you pulled the docker image: docker run -dp 8080:8080 <enter-docker-image-name-here>
 
 #To create new image file from the code repository, run the command: docker build . -t build/tracking-number-gen 
 
