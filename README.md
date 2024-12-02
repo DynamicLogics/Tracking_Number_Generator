@@ -11,3 +11,5 @@ docker pull ssadoc123/dd0522fafb2c
 #To create new image file from the code repository, run the command: docker build . -t build/tracking-number-gen 
 
 #To run the docker-compose file, run the command: docker-compose up -d (It will start the multiple continers for load-balancing as well)
+
+#Github URL: https://github.com/DynamicLogics/Tracking_Number_Generator.git
