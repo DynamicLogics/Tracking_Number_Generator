@@ -1,13 +1,11 @@
 version: '3'
 services:
   app:
-    image: build/tracking-number-gen
+    image: build/tracking-number-gen:latest
+    ports:
+      - "8080:8080"
     deploy:
       replicas: 3
-      restart_policy:
-        condition: on-failure
-    environment:
-      - SPRING_PROFILES_ACTIVE=default
     networks:
       - app-network
 
