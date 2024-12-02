@@ -38,3 +38,10 @@ use the following API parameter to pass for generating new tracking ID's:
 	"customer_slug":"redbox-logistics"
 }
 
+#API response:
+With respect to above request you should get the following similar response:
+{
+    "tracking_number": "9H0WQA9CCDAXRY",
+    "created_at": "2024-12-02T10:09:00.808Z",
+    "message": "Traking ID generated successfully..."
+}
