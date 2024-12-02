@@ -1,0 +1,25 @@
+version: '3'
+services:
+  app:
+    image: build/tracking-number-gen
+    deploy:
+      replicas: 3
+      restart_policy:
+        condition: on-failure
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
+    networks:
+      - app-network
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
