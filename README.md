@@ -23,7 +23,7 @@ http://localhost:8080/tng/next-tracking-number
 2] If you are running the project using the single docker container use following URL:
 http://localhost:8080/tng/next-tracking-number
 
-3] If you are running the docker compose image for loadbalancing use the following command:
+3] If you are running the docker compose image for loadbalancing use the following URL:
 http://localhost:8080/tng/next-tracking-number
 
 #API request body:
