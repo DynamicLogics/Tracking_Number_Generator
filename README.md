@@ -1,5 +1,5 @@
 # Tracking-Number-Generation
-Repository related to new trackinng number generation
+Repository related to new tracking number generation
 
 #To take the docker image pull into your local docker system, run the below command
 docker pull ssadoc123/dd0522fafb2c
