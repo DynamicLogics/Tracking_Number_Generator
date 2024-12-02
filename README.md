@@ -24,7 +24,7 @@ http://localhost:8080/tng/next-tracking-number
 http://localhost:8080/tng/next-tracking-number
 
 3] If you are running the docker compose image for loadbalancing use the following command:
-
+http://localhost:8080/tng/next-tracking-number
 
 #API request body:
 use the following API parameter to pass for generating new tracking ID's:
